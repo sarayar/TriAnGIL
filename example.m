@@ -1,0 +1,16 @@
+
+
+% coords = {   results_table.Nulcei_centroids(pdl1_indices,:),...
+%             results_table.Nulcei_centroids(CD68_indices,:),...
+%             results_table.Nulcei_centroids(CD8_indices,:),...
+%             results_table.Nulcei_centroids(CD3_indices,:),...
+%             results_table.Nulcei_centroids(foxp3_indices,:),...
+%     };
+
+load('coords2.mat');
+
+
+
+
+
+[features_All_together,all_descriptions] = extract_graph_interplay_features(coords); 
